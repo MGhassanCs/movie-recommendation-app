@@ -27,8 +27,8 @@ This project is a **hybrid movie recommender system** that suggests movies based
 
 1. **Clone this repository:**
     ```bash
-    git clone https://github.com/yourusername/hybrid-movie-recommender.git
-    cd hybrid-movie-recommender
+    git clone https://github.com/MGhassanCs/movie-recommendation-app.git
+    cd movie-recommendation-app
     ```
 
 2. **Download MovieLens 1M Dataset:**
