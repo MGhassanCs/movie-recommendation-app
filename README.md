@@ -39,15 +39,7 @@ This project is a **hybrid movie recommender system** that suggests movies based
     ```bash
     pip install -r requirements.txt
     ```
-
-    Example `requirements.txt`:
-    ```
-    streamlit
-    pandas
-    scikit-learn
-    scikit-surprise
-    ```
-
+    
 ---
 
 ## Usage
