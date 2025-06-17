@@ -58,19 +58,23 @@ This project is a **hybrid movie recommender system** that suggests movies based
 
 ## File Structure
 
-- `app.py` : Main Streamlit application file.
-- `ml-1m/` : Folder containing MovieLens 1M data files (`movies.dat`, `ratings.dat`, etc.).
-- `requirements.txt` : List of required Python packages.
-- `README.md` : This documentation file.
+- hybrid-movie-recommender/
+│
+├── app.py                   # Streamlit app interface
+├── content_recommender.py   # Content-based recommender logic (TF-IDF + cosine similarity)
+├── collaborative.py         # Collaborative filtering logic (SVD via Surprise)
+├── hybrid.py                # Hybrid recommender that combines both approaches
+├── ml-1m/                   # MovieLens dataset files
+├── requirements.txt         # Required Python packages
+└── README.md                # Project documentation
 
----
 
 ## Notes
 
 - **User ID:** Must be an existing user in the MovieLens dataset.
 - **Performance:** First run may take some time as models are built and cached.
 - **Customization:** You can adjust the number of recommendations or blend method in `app.py`.
-
+- **Recommendation** Tune the recommendation blending logic or number of results in hybrid.py for better results.
 ---
 
 ## License
@@ -85,4 +89,3 @@ This project is for educational purposes. Dataset provided by [GroupLens](https:
 - [Surprise Recommender Library](https://surpriselib.com/)
 - [Streamlit](https://streamlit.io/)
 
-# intermediate-project

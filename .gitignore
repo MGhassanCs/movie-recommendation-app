@@ -1,1 +1,38 @@
-/Untitled-1.ipynb
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Jupyter/IPython
+.ipynb_checkpoints
+
+# Environment files
+.env
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.streamlit/cache/
+.streamlit/config.toml
+
+# Dataset files
+ml-1m/
+
+# VSCode settings
+.vscode/
+
+# Logs
+*.log
+
+# Requirements lock files (optional)
+poetry.lock
+Pipfile.lock
