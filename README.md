@@ -57,7 +57,7 @@ This project is a **hybrid movie recommender system** that suggests movies based
 ---
 
 ## File Structure
-
+```
 - hybrid-movie-recommender/
 │
 ├── app.py                   # Streamlit app interface
@@ -67,7 +67,7 @@ This project is a **hybrid movie recommender system** that suggests movies based
 ├── ml-1m/                   # MovieLens dataset files
 ├── requirements.txt         # Required Python packages
 └── README.md                # Project documentation
-
+```
 
 ## Notes
 
